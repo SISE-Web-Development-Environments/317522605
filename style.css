@@ -108,7 +108,7 @@ background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, F
   input[type=text]:focus {
 	background-color: rgb(250, 209, 209);
   }
-  input[type=submit],input[type=reset]{
+ /* input[type=submit],input[type=reset]{
 	background-color: rgba(103, 129, 104, 0.822);
 	border: none;
 	color: white;
@@ -118,7 +118,7 @@ background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, F
 	cursor: pointer;
 	font-size: 15px;
 	border-radius: 4px;
-  }
+  }*/
   .bouncy{
 	animation:bouncy 5s infinite linear;
 	position:relative;
@@ -132,3 +132,53 @@ background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, F
 		50% {top:0em}
 		100%{top:0em}
 	  }
+
+	  * {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	#buttons {
+		text-align: center;
+	}
+	
+	.btn-hover {
+		width: 200px;
+		font-size: 16px;
+		font-weight: 600;
+		color: #fff;
+		cursor: pointer;
+		margin: 20px;
+		height: 55px;
+		text-align:center;
+		border: none;
+		background-size: 300% 100%;
+	
+		border-radius: 50px;
+		-moz-transition: all .4s ease-in-out;
+		-o-transition: all .4s ease-in-out;
+		-webkit-transition: all .4s ease-in-out;
+		transition: all .4s ease-in-out;
+	}
+	
+	.btn-hover:hover {
+		background-position: 100% 0;
+		-moz-transition: all .4s ease-in-out;
+		-o-transition: all .4s ease-in-out;
+		-webkit-transition: all .4s ease-in-out;
+		transition: all .4s ease-in-out;
+	}
+	
+	.btn-hover:focus {
+		outline: none;
+	}
+	
+	.btn-hover.color-2 {
+		background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+		box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+	}
+	.btn-hover.color-10 {
+        background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
