@@ -1,5 +1,5 @@
 
-Name: מרינה בוטביניק
+Name: Marina Botvinnik (מרינה בוטביניק)
 Id: 317522605
 Link to the website: https://sise-web-development-environments.github.io/assignment1-MarinaBotvinnik/
 
